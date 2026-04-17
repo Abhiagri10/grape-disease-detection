@@ -1,0 +1,56 @@
+# ── Dataset (never commit raw data) ─────────────────────
+data/
+*.zip
+*.tar.gz
+*.tar
+
+# ── Model weights ────────────────────────────────────────
+outputs/models/
+*.pth
+*.pt
+*.onnx
+*.engine
+
+# ── Experiment outputs (commit selectively) ──────────────
+# outputs/plots/ and outputs/reports/ CAN be committed
+# Add them explicitly with: git add outputs/plots/
+outputs/models/
+
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Environments ─────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+*.env
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Colab residuals ──────────────────────────────────────
+/content/
+*.log
+
+# ── Wandb / MLflow ───────────────────────────────────────
+wandb/
+mlruns/
