@@ -1,0 +1,11 @@
+# outputs/plots
+
+Training curves, confusion matrices, and sample batch visualizations are saved here after running the notebook.
+
+These files **are committed** to the repository as reproducibility evidence.
+
+Expected files:
+- `sample_batch.png`
+- `training_curves.png`
+- `confusion_matrix.png`
+- `confusion_matrix_counts.png`
